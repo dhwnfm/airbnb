@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bong</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-logo">
+       <a href="https://ed14e8e8802b4e87babc586a93ef23c2.vfs.cloud9.us-east-2.amazonaws.com/"><img src= "https://presite-potepancamp-rails-02.herokuapp.com/assets/logo.png"></a>
+      </div>
+    </header>
+    <body>
+      <%= yield %>
+    </body>
+    <footer>
+      <div class="footer-logo">
+        2021 BONGJU.INC.
+      </div>
+    </footer>
+  </body>
+</html>
